@@ -12,7 +12,7 @@ My_ portfolio.html
 
 Random.c and Calculator.c 
 
-Visit my Portfolio  - Shubhendra.pro 
+Visit my Portfolio  - Shubhendra2107.com
 
 Contact 
 Mail me on shubhendrashukla2407@gmail.com  
