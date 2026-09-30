@@ -89,6 +89,6 @@ This project is licensed under the Mozilla Public License 2.0. See the `LICENSE`
 
 - GitHub: https://github.com/shubhen2107
 - Email: shubhen2107@gmail.com
-- Portfolio: https://shubhen2107.github.io/Portfolio/web2.html
+- Portfolio: https://shubhendra.pro/
 
 Thank you for visiting my portfolio repository. I hope you enjoy exploring my work.
