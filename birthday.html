@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="refresh" content="0; url=./surprise.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Loading Birthday Surprise...</title>
+    <style>
+      :root {
+        --bg: #090a0f;
+        --purple: #a855f7;
+        --cyan: #06b6d4;
+        --gold: #fbbf24;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        font-family: Arial, sans-serif;
+        background: radial-gradient(circle at top, #1a0b2e 0%, var(--bg) 55%);
+        color: white;
+      }
+      .loader {
+        text-align: center;
+        padding: 2rem 3rem;
+        border: 1px solid rgba(168, 85, 247, 0.45);
+        border-radius: 18px;
+        background: rgba(26, 11, 46, 0.7);
+        box-shadow: 0 0 30px rgba(168, 85, 247, 0.35);
+      }
+      .title {
+        font-size: clamp(1.5rem, 3vw, 2.4rem);
+        font-weight: 800;
+        letter-spacing: 0.08em;
+        margin-bottom: 0.75rem;
+        background: linear-gradient(90deg, var(--purple), var(--cyan), var(--gold));
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+      }
+      .text {
+        color: #dbeafe;
+        letter-spacing: 0.04em;
+      }
+      .dots::after {
+        content: '...';
+        animation: blink 1.2s infinite steps(1, end);
+      }
+      @keyframes blink {
+        0%, 50% { opacity: 1; }
+        50%, 100% { opacity: 0.2; }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="loader">
+      <div class="title">ARUSH.EXE</div>
+      <div class="text">Opening birthday surprise<span class="dots"></span></div>
+    </div>
+
+    <script>
+      window.location.replace('./surprise.html');
+    </script>
+  </body>
+</html>
